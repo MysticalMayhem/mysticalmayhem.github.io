@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mysmay's Stupid Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    img {
-      max-width: 400px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-  </style>
+	<meta charset="utf-8">
+	<meta name="author" content="MysticalMayhem">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<title>Mysmay's Silly Website</title>
+	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>I'm going to die.</h1>
-  <p>Ough.</p>
-  <img src="assets/mysmay.png" alt="Classic fuck head">
+<main>
+<div class="flex flex-column">
+	<section id="about">
+		<h1 class="text-white text-center">Mysmay's Silly Website</h1>
+		<div class="relative flex justify-center">
+		<img class="image-border" src="assets/images/mysmay.png" alt="MysticalMayhem" width="340">
+		</div>
+		<p class="text-gray text-italic text-center">THAT'S ME!!!</p>
+	</section>
+	
+	<section id="socials" class="text-center flex flex-column">
+		<div class="flex flex-column items-center justify-center">
+			<p class="text-white">These are my socials, so feel free to reach out if you wanna talk!</p>
+			<div class="flex gap">
+			<a class="flex items-center justify-center" href="https://x.com/falsemayhem" target="_blank">
+				<img class="icon" src="assets/images/twitter_icon.svg" alt="Mysmay on Twitter">
+			</a>
+			<a class="flex items-center justify-center" href="https://bsky.app/profile/mysmay.com" target="_blank">
+				<img class="icon" src="assets/images/bsky_icon.svg" alt="Mysmay on Bluesky">
+			</a>
+			</div>
+		</div>
+	</section>
+</div>
+</main>
 </body>
 </html>
